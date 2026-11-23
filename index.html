@@ -6,7 +6,7 @@
             <!-- Segurança (CSP via META): nesta versão estática, os blocos inline autorizados usam hash SHA-256.
            Observação: esta política reforça a superfície de execução, mas em app local-first standalone a sanitização do preview continua sendo a barreira principal.
            Diretivas sem suporte em <meta>, como frame-ancestors, ficam fora desta política e só podem ser aplicadas por header HTTP. -->
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; font-src 'self' data:; img-src 'self' data: https: blob:; media-src 'self' data: https: blob:; connect-src 'none'; style-src 'self' 'nonce-noteapp' 'sha256-hDqZ6O+LQFa48KL9I6UrQgBdmuwBH4jyLdWs371h9Tc='; style-src-elem 'self' 'nonce-noteapp' 'sha256-hDqZ6O+LQFa48KL9I6UrQgBdmuwBH4jyLdWs371h9Tc='; style-src-attr 'unsafe-inline'; script-src 'self' 'sha256-KrOlJxiODBUwU2BWpI7BmxBhof71NrMY0JK9z7eoQdE='; script-src-elem 'self' 'sha256-KrOlJxiODBUwU2BWpI7BmxBhof71NrMY0JK9z7eoQdE='; script-src-attr 'none';">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; font-src 'self' data:; img-src 'self' data: https: blob:; media-src 'self' data: https: blob:; connect-src 'none'; style-src 'self' 'nonce-noteapp' 'sha256-hDqZ6O+LQFa48KL9I6UrQgBdmuwBH4jyLdWs371h9Tc='; style-src-elem 'self' 'nonce-noteapp' 'sha256-hDqZ6O+LQFa48KL9I6UrQgBdmuwBH4jyLdWs371h9Tc='; style-src-attr 'unsafe-inline'; script-src 'self' 'sha256-ak44pKTBPbw6XZt5nvIkrjETn3MTDaIpXMG3wCoNfnk='; script-src-elem 'self' 'sha256-ak44pKTBPbw6XZt5nvIkrjETn3MTDaIpXMG3wCoNfnk='; script-src-attr 'none';">
       <title>VIVO NOTE</title>
       <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%2280.9167814%200%2024.2205626%2032.8657315%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%3Cpath%20d%3D%22M99.1448039%2C6.04065113%20C99.1448039%2C7.20375402%2098.7326817%2C9.01846463%2097.4518617%2C10.2997347%20C97.0012508%2C10.7498955%2096.6103987%2C11.0201045%2096.2980997%2C11.2217765%20C95.6960096%2C11.6115032%2095.2605916%2C11.8826125%2095.5033408%2C12.5329823%20C95.7418135%2C13.1723232%2096.4858167%2C12.9744775%2097.1889678%2C12.8152331%20C97.416074%2C12.7611013%20101.833502%2C11.7040113%20101.888421%2C11.7015354%20C103.075608%2C11.4771302%20104.22183%2C12.2276608%20104.500141%2C13.3886254%20C104.501267%2C13.3934646%20104.854418%2C14.8690916%20104.857569%2C14.8821463%20C105.137344%2C16.0431109%20104.457489%2C17.2329984%20103.298662%2C17.5729823%20C103.249257%2C17.5952653%2098.4218457%2C18.7556672%2098.4137428%2C18.7581431%20C97.4971029%2C18.991664%2096.9599486%2C19.4461013%2096.9599486%2C20.3306672%20C96.9599486%2C20.7257958%2097.1889678%2C21.1546865%2097.4709936%2C21.5112138%20C97.4709936%2C21.5112138%20102.715704%2C28.0117605%20102.743051%2C28.0617283%20C103.456669%2C29.0355386%20103.274241%2C30.3935611%20102.346685%2C31.1457797%20C102.343646%2C31.1490434%20101.165013%2C32.1042846%20101.153646%2C32.1129502%20C100.227778%2C32.8657315%2098.8616527%2C32.7661334%2098.0549646%2C31.8675%20C98.0136624%2C31.8321624%2094.7566367%2C27.8283199%2094.4109132%2C27.4037058%20C94.064627%2C26.9797669%2093.6303344%2C26.3336736%2093.0267814%2C26.3336736%20C92.4242412%2C26.3336736%2091.9899486%2C26.9797669%2091.6433248%2C27.4037058%20C91.298164%2C27.8283199%2088.040463%2C31.8321624%2087.9996109%2C31.8675%20C87.1920225%2C32.7661334%2085.8263473%2C32.8657315%2084.8999164%2C32.1129502%20C84.8895627%2C32.1042846%2083.7104791%2C31.1490434%2083.7074405%2C31.1457797%20C82.7798842%2C30.3935611%2082.5981318%2C29.0355386%2083.3111865%2C28.0617283%20C83.337746%2C28.0117605%2088.5831318%2C21.5112138%2088.5831318%2C21.5112138%20C88.8640322%2C21.1546865%2089.0937267%2C20.7257958%2089.0937267%2C20.3306672%20C89.0937267%2C19.4461013%2088.5581479%2C18.991664%2087.6403826%2C18.7581431%20C87.6316045%2C18.7556672%2082.8049807%2C17.5952653%2082.7547878%2C17.5729823%20C81.5970868%2C17.2329984%2080.9167814%2C16.0431109%2081.1959936%2C14.8821463%20C81.1992572%2C14.8690916%2081.5535338%2C13.3934646%2081.5539839%2C13.3886254%20C81.8322958%2C12.2276608%2082.977955%2C11.4771302%2084.1651415%2C11.7015354%20C84.2207363%2C11.7040113%2088.6377138%2C12.7611013%2088.8640322%2C12.8152331%20C89.5694341%2C12.9744775%2090.3124244%2C13.1723232%2090.5508971%2C12.5329823%20C90.7930836%2C11.8826125%2090.3581158%2C11.6115032%2089.7560257%2C11.2217765%20C89.4430514%2C11.0201045%2089.0528746%2C10.7498955%2088.6027138%2C10.2997347%20C87.3214437%2C9.01846463%2086.9088714%2C7.20375402%2086.9088714%2C6.04065113%20C86.9088714%2C2.70518489%2089.6907524%2C5.62700965e-05%2093.0267814%2C5.62700965e-05%20C96.3626977%2C5.62700965e-05%2099.1448039%2C2.70518489%2099.1448039%2C6.04065113%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E">
 
@@ -7839,31 +7839,22 @@ if (ui.tabsScroll && ui.btnTabsLeft && ui.btnTabsRight && !ui.tabsScroll.dataset
              };
 
              const readFileSnapshot = async (entryHandle, prevNode, fallbackUpdatedAt) => {
-               let updatedAt = fallbackUpdatedAt;
-               let content = typeof prevNode?.content === "string" ? prevNode.content : "";
-               let size = Number(prevNode?.size || 0);
-               let fsLastModifiedMs = Number(prevNode?.fsLastModifiedMs || 0);
-               let fsSize = Number(prevNode?.fsSize ?? prevNode?.size ?? 0);
-               try {
-                 // Mesmo no startup cache-first, sempre consultamos os METADADOS físicos.
-                 // O conteúdo em cache só é reutilizado se lastModified + size ainda coincidirem.
-                 const file = await entryHandle.getFile();
-                 size = Number(file?.size || 0);
-                 fsSize = size;
-                 fsLastModifiedMs = Number(file?.lastModified || 0);
-                 updatedAt = fsLastModifiedMs ? new Date(fsLastModifiedMs).toISOString() : updatedAt;
-                 const baselineMatches = !!prevNode
-                   && Number(prevNode.fsLastModifiedMs || 0) > 0
-                   && Number(prevNode.fsLastModifiedMs || 0) === fsLastModifiedMs
-                   && Number(prevNode.fsSize ?? prevNode.size ?? -1) === fsSize;
-                 const canReusePrevious = preferCachedFileSnapshots
-                   && baselineMatches
-                   && typeof prevNode?.content === "string";
-                 content = canReusePrevious ? prevNode.content : await file.text();
-               } catch (_) {
-                 // Falha de leitura nunca apaga o snapshot já conhecido da árvore.
-               }
-               return { content, updatedAt, size, fsLastModifiedMs, fsSize };
+               // Não converter erro físico de leitura em nota vazia ou cache aparentemente
+               // confirmado. A falha interrompe a reconstrução; a sessão anterior
+               // permanece intacta até que o usuário consiga sincronizar novamente.
+               const file = await entryHandle.getFile();
+               const size = Number(file?.size || 0);
+               const fsLastModifiedMs = Number(file?.lastModified || 0);
+               const updatedAt = fsLastModifiedMs ? new Date(fsLastModifiedMs).toISOString() : fallbackUpdatedAt;
+               const baselineMatches = !!prevNode
+                 && Number(prevNode.fsLastModifiedMs || 0) > 0
+                 && Number(prevNode.fsLastModifiedMs || 0) === fsLastModifiedMs
+                 && Number(prevNode.fsSize ?? prevNode.size ?? -1) === size;
+               const canReusePrevious = preferCachedFileSnapshots
+                 && baselineMatches
+                 && typeof prevNode?.content === "string";
+               const content = canReusePrevious ? prevNode.content : await file.text();
+               return { content, updatedAt, size, fsLastModifiedMs, fsSize: size };
              };
 
              const walk = async (dirHandle, parentId, parentRelPath) => {
