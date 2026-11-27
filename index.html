@@ -6,7 +6,7 @@
             <!-- Segurança (CSP via META): nesta versão estática, os blocos inline autorizados usam hash SHA-256.
            Observação: esta política reforça a superfície de execução, mas em app local-first standalone a sanitização do preview continua sendo a barreira principal.
            Diretivas sem suporte em <meta>, como frame-ancestors, ficam fora desta política e só podem ser aplicadas por header HTTP. -->
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; font-src 'self' data:; img-src 'self' data: https: blob:; media-src 'self' data: https: blob:; connect-src 'none'; style-src 'self' 'nonce-noteapp' 'sha256-GlVNvM6gZY7FsxfOqUqG0B99QQNdBHry/vulM+XqIDQ='; style-src-elem 'self' 'nonce-noteapp' 'sha256-GlVNvM6gZY7FsxfOqUqG0B99QQNdBHry/vulM+XqIDQ='; style-src-attr 'unsafe-inline'; script-src 'self' 'sha256-IQhvCMGkjP5kPWyc2X7jxCb1xsZmxLxcgdngseY4O2o='; script-src-elem 'self' 'sha256-IQhvCMGkjP5kPWyc2X7jxCb1xsZmxLxcgdngseY4O2o='; script-src-attr 'none';">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; font-src 'self' data:; img-src 'self' data: https: blob:; media-src 'self' data: https: blob:; connect-src 'none'; style-src 'self' 'nonce-noteapp' 'sha256-GlVNvM6gZY7FsxfOqUqG0B99QQNdBHry/vulM+XqIDQ='; style-src-elem 'self' 'nonce-noteapp' 'sha256-GlVNvM6gZY7FsxfOqUqG0B99QQNdBHry/vulM+XqIDQ='; style-src-attr 'unsafe-inline'; script-src 'self' 'sha256-OfxRekNvyDju7gHF0HNoE5HbYEutl3eNfuO5MEb1n2s='; script-src-elem 'self' 'sha256-OfxRekNvyDju7gHF0HNoE5HbYEutl3eNfuO5MEb1n2s='; script-src-attr 'none';">
       <title>VIVO NOTE</title>
       <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%2280.9167814%200%2024.2205626%2032.8657315%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%3Cpath%20d%3D%22M99.1448039%2C6.04065113%20C99.1448039%2C7.20375402%2098.7326817%2C9.01846463%2097.4518617%2C10.2997347%20C97.0012508%2C10.7498955%2096.6103987%2C11.0201045%2096.2980997%2C11.2217765%20C95.6960096%2C11.6115032%2095.2605916%2C11.8826125%2095.5033408%2C12.5329823%20C95.7418135%2C13.1723232%2096.4858167%2C12.9744775%2097.1889678%2C12.8152331%20C97.416074%2C12.7611013%20101.833502%2C11.7040113%20101.888421%2C11.7015354%20C103.075608%2C11.4771302%20104.22183%2C12.2276608%20104.500141%2C13.3886254%20C104.501267%2C13.3934646%20104.854418%2C14.8690916%20104.857569%2C14.8821463%20C105.137344%2C16.0431109%20104.457489%2C17.2329984%20103.298662%2C17.5729823%20C103.249257%2C17.5952653%2098.4218457%2C18.7556672%2098.4137428%2C18.7581431%20C97.4971029%2C18.991664%2096.9599486%2C19.4461013%2096.9599486%2C20.3306672%20C96.9599486%2C20.7257958%2097.1889678%2C21.1546865%2097.4709936%2C21.5112138%20C97.4709936%2C21.5112138%20102.715704%2C28.0117605%20102.743051%2C28.0617283%20C103.456669%2C29.0355386%20103.274241%2C30.3935611%20102.346685%2C31.1457797%20C102.343646%2C31.1490434%20101.165013%2C32.1042846%20101.153646%2C32.1129502%20C100.227778%2C32.8657315%2098.8616527%2C32.7661334%2098.0549646%2C31.8675%20C98.0136624%2C31.8321624%2094.7566367%2C27.8283199%2094.4109132%2C27.4037058%20C94.064627%2C26.9797669%2093.6303344%2C26.3336736%2093.0267814%2C26.3336736%20C92.4242412%2C26.3336736%2091.9899486%2C26.9797669%2091.6433248%2C27.4037058%20C91.298164%2C27.8283199%2088.040463%2C31.8321624%2087.9996109%2C31.8675%20C87.1920225%2C32.7661334%2085.8263473%2C32.8657315%2084.8999164%2C32.1129502%20C84.8895627%2C32.1042846%2083.7104791%2C31.1490434%2083.7074405%2C31.1457797%20C82.7798842%2C30.3935611%2082.5981318%2C29.0355386%2083.3111865%2C28.0617283%20C83.337746%2C28.0117605%2088.5831318%2C21.5112138%2088.5831318%2C21.5112138%20C88.8640322%2C21.1546865%2089.0937267%2C20.7257958%2089.0937267%2C20.3306672%20C89.0937267%2C19.4461013%2088.5581479%2C18.991664%2087.6403826%2C18.7581431%20C87.6316045%2C18.7556672%2082.8049807%2C17.5952653%2082.7547878%2C17.5729823%20C81.5970868%2C17.2329984%2080.9167814%2C16.0431109%2081.1959936%2C14.8821463%20C81.1992572%2C14.8690916%2081.5535338%2C13.3934646%2081.5539839%2C13.3886254%20C81.8322958%2C12.2276608%2082.977955%2C11.4771302%2084.1651415%2C11.7015354%20C84.2207363%2C11.7040113%2088.6377138%2C12.7611013%2088.8640322%2C12.8152331%20C89.5694341%2C12.9744775%2090.3124244%2C13.1723232%2090.5508971%2C12.5329823%20C90.7930836%2C11.8826125%2090.3581158%2C11.6115032%2089.7560257%2C11.2217765%20C89.4430514%2C11.0201045%2089.0528746%2C10.7498955%2088.6027138%2C10.2997347%20C87.3214437%2C9.01846463%2086.9088714%2C7.20375402%2086.9088714%2C6.04065113%20C86.9088714%2C2.70518489%2089.6907524%2C5.62700965e-05%2093.0267814%2C5.62700965e-05%20C96.3626977%2C5.62700965e-05%2099.1448039%2C2.70518489%2099.1448039%2C6.04065113%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E">
 
@@ -4944,7 +4944,7 @@ html.tree-grabbing .tree .node.selected {
          </div>
 
          <div class="item" id="tabMenuReopen" role="menuitem" tabindex="-1">
-            <span>Reabrir aba fechada</span><span class="hint">Ctrl+Alt+Shift+T</span>
+            <span>Reabrir aba fechada</span><span class="hint">Ctrl+Alt+T</span>
          </div>
 
          <div class="sep" role="separator" aria-orientation="horizontal"></div>
@@ -4959,7 +4959,7 @@ html.tree-grabbing .tree .node.selected {
 
          <div class="sep" role="separator" aria-orientation="horizontal"></div>
 
-<div class="item" id="tabMenuClose" role="menuitem" tabindex="-1"><span>Fechar</span><span class="hint">Ctrl+Shift+W</span></div>
+<div class="item" id="tabMenuClose" role="menuitem" tabindex="-1"><span>Fechar</span><span class="hint">Ctrl+Alt+W</span></div>
          <div class="item" id="tabMenuCloseOthers" role="menuitem" tabindex="-1">
             <span>Fechar outras</span><span class="hint">—</span>
          </div>
@@ -5759,10 +5759,13 @@ html.tree-grabbing .tree .node.selected {
            const shouldIgnoreGlobalShortcut = (e) => {
              if (!e) return true;
              if (e.defaultPrevented) return true;
-             if (e.isComposing) return true;
-             if (typeof e.key === "string" && e.key === "Process") return true;
+             if (e.isComposing || e.keyCode === 229 || e.getModifierState?.("AltGraph")) return true;
+             if (["Process", "Dead", "AltGraph"].includes(e.key)) return true;
              return false;
            };
+
+           const isContextMenuKey = (e) => !e.ctrlKey && !e.altKey && !e.metaKey &&
+             ((e.key === "ContextMenu" && !e.shiftKey) || (e.key === "F10" && e.shiftKey));
 
            /* =========================
               LocalStorage keys
@@ -6822,7 +6825,7 @@ const bindSidebarToggle = () => {
              let i = ids.indexOf(cur);
              if (i < 0) i = 0;
              const next = ids[(i + dir + ids.length) % ids.length];
-             if (next) activateTab(next, { focus: true });
+             if (next) activateAndFocusTab(next);
            };
 
            // ===== Atalhos de teclado (Tabs) =====
@@ -6840,12 +6843,8 @@ const bindSidebarToggle = () => {
                const nextTab = state.tabs[nextIndex];
                if (!nextTab) return;
 
-               setActiveTab(nextTab.id);
-
-               // UX: se o foco estiver na barra de abas, mantém o foco na nova aba ativa.
-               if (ui.tabs && ui.tabs.contains(document.activeElement)) {
-                 focusTabEl(nextTab.id);
-               }
+               if (ui.tabs && ui.tabs.contains(document.activeElement)) activateAndFocusTab(nextTab.id);
+               else setActiveTab(nextTab.id);
              } catch (_e) {}
            };
 
@@ -6869,33 +6868,41 @@ restoreHeaderCollapsed();
 
           const focusTabEl = (tabId) => {
             const el = getTabElement(tabId);
-            if (el) el.focus();
+            if (el && document.activeElement !== el) el.focus();
+          };
+
+          const activateAndFocusTab = (tabId) => {
+            setActiveTab(tabId, { focusEditor: false });
+            focusTabEl(tabId);
           };
 
           const handleTabsKeydown = (e) => {
-            const k = e.key;
-
-            // Reordenar a aba ativa (atalho). Mantém pinned/unpinned separados.
-            if (e.ctrlKey && e.shiftKey && (k === "ArrowLeft" || k === "ArrowRight")) {
-              if (!state.tabs.length || !state.activeTabId) return;
+            if (shouldIgnoreGlobalShortcut(e) || isTypingTarget(e.target)) return;
+            const tab = getTabElementFromTarget(e.target);
+            if (!tab || !ui.tabs.contains(tab)) return;
+            if (isContextMenuKey(e)) {
               e.preventDefault();
-              moveTabRelative(state.activeTabId, k === "ArrowLeft" ? -1 : 1);
-              focusTabEl(state.activeTabId);
+              if (!e.repeat) openKeyboardContextMenu(tab, tab.dataset.tabId, openTabContextMenu);
+              return;
+            }
+            if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
+            const k = e.key;
+            if (k === "Enter" || k === " ") {
+              e.preventDefault();
+              if (!e.repeat) activateAndFocusTab(tab.dataset.tabId);
               return;
             }
             if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(k)) return;
             if (!state.tabs.length) return;
             e.preventDefault();
-            const idx = state.tabs.findIndex((t) => t.id === state.activeTabId);
+            const idx = state.tabs.findIndex(t => t.id === tab.dataset.tabId);
             const cur = idx >= 0 ? idx : 0;
             let next = cur;
             if (k === "ArrowLeft") next = (cur - 1 + state.tabs.length) % state.tabs.length;
             if (k === "ArrowRight") next = (cur + 1) % state.tabs.length;
             if (k === "Home") next = 0;
             if (k === "End") next = state.tabs.length - 1;
-            const tid = state.tabs[next].id;
-            setActiveTab(tid);
-            focusTabEl(tid);
+            activateAndFocusTab(state.tabs[next].id);
           };
 
           let moveTabRelative = () => {};
@@ -7228,7 +7235,8 @@ restoreHeaderCollapsed();
               const tabEl = getTabElementFromTarget(e.target);
               if (!tabEl || !ui.tabs.contains(tabEl)) return;
               if (TAB_DND.dragging) return;
-              setActiveTab(tabEl.dataset.tabId);
+              if (state.activeTabId === tabEl.dataset.tabId && document.activeElement === tabEl) return;
+              activateAndFocusTab(tabEl.dataset.tabId);
             }, true);
 
             ui.tabs.addEventListener('pointerdown', (e) => {
@@ -7309,7 +7317,7 @@ restoreHeaderCollapsed();
               resetTabPointerDrag(wasDragging);
 
               if (shouldActivateByPointerUp) {
-                setActiveTab(pressedTabId);
+                activateAndFocusTab(pressedTabId);
               }
             };
 
@@ -9634,7 +9642,7 @@ if (ui.tabsScroll && ui.btnTabsLeft && ui.btnTabsRight && !ui.tabsScroll.dataset
                  }
                  validation.set(node, "verified");
                  if (getTab(state.activeTabId)?.nodeId === node.id) {
-                   if (!hasDraft && !matches) updateEditorForActiveTab();
+                   if (!hasDraft && !matches) updateEditorForActiveTab({ focusEditor: document.activeElement === ui.editor });
                    else updateSaveBadge();
                  }
                } catch (error) {
@@ -11557,6 +11565,7 @@ if (ui.tabsScroll && ui.btnTabsLeft && ui.btnTabsRight && !ui.tabsScroll.dataset
              } else {
                ui.resultsBadge.innerHTML = EMPTY_RESULTS_BADGE_SVG;
              }
+             const restoreTreeFocus = ui.tree.contains(document.activeElement);
              ui.tree.innerHTML = "";
              const frag = document.createDocumentFragment();
              const visibleOrder = [];
@@ -11683,7 +11692,7 @@ if (ui.tabsScroll && ui.btnTabsLeft && ui.btnTabsRight && !ui.tabsScroll.dataset
                el.setAttribute('aria-selected', id === state.selectedId ? 'true' : 'false');
              }
 
-             if (document.activeElement === ui.tree && focusId) {
+             if (restoreTreeFocus && focusId) {
                const el = ui.tree.querySelector(`.node[data-id=\"${focusId}\"]`);
                if (el) el.focus();
              }
@@ -11691,7 +11700,7 @@ if (ui.tabsScroll && ui.btnTabsLeft && ui.btnTabsRight && !ui.tabsScroll.dataset
 
            const wireSearchEnter = () => {
              ui.search.addEventListener("keydown", (e) => {
-               if (e.key !== "Enter") return;
+               if (shouldIgnoreGlobalShortcut(e) || e.repeat || e.key !== "Enter" || e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
                e.preventDefault();
                const firstRow = ui.tree.querySelector(".node");
                if (!firstRow) return;
@@ -12110,7 +12119,7 @@ const flushPendingAutosaveForActiveTab = (reason = "navegação") => {
   return true;
 };
 
-const setActiveTab = (tabId, { validatePhysical = true } = {}) => {
+const setActiveTab = (tabId, { validatePhysical = true, focusEditor = true } = {}) => {
   persistActiveEditorState();
 
   const previousTabId = state.activeTabId;
@@ -12124,7 +12133,7 @@ const setActiveTab = (tabId, { validatePhysical = true } = {}) => {
 
   if (tab) setSelected(tab.nodeId);
 
-  updateEditorForActiveTab({ validatePhysical });
+  updateEditorForActiveTab({ validatePhysical, focusEditor });
   renderTabs();
 
   queueEnsureTabVisible(tabId);
@@ -12182,7 +12191,7 @@ const closeTab = (tabId, options = {}) => {
   if (wasActive) {
     const next = state.tabs[idx - 1] || state.tabs[idx] || null;
     state.activeTabId = next ? next.id : null;
-    updateEditorForActiveTab({ validatePhysical: true });
+    updateEditorForActiveTab({ validatePhysical: true, focusEditor: !ui.tabs.contains(document.activeElement) });
   }
 
   renderTabs();
@@ -12376,6 +12385,7 @@ function scrollTabsBy(delta){
 }
 
 const renderTabs = () => {
+             const restoreTabFocus = ui.tabs.contains(document.activeElement);
              const tabsWrapOn = isTabsWrapEnabled();
 
              ui.tabs.innerHTML = "";
@@ -12427,22 +12437,6 @@ const renderTabs = () => {
                inner.append(icon, name, pin, dirty, close);
                tab.append(inner);
 
-               tab.addEventListener("keydown", (e) => {
-                if (e.key === "Enter") setActiveTab(t.id);
-                if (e.key === "ContextMenu" || (e.shiftKey && e.key === "F10")) {
-                  e.preventDefault();
-                  const rect = tab.getBoundingClientRect();
-                  openTabContextMenu(rect.left + Math.min(24, rect.width / 2), rect.bottom + 6, t.id, { invoker: tab, focusMenu: true });
-                  return;
-                }
-                const ctrl = isMac() ? e.metaKey : e.ctrlKey;
-                 if (ctrl && e.key.toLowerCase() === "w") {
-                   e.preventDefault();
-                   if (t.pinned) return toast("Aba fixada. Desfixe para fechar.");
-                   closeTab(t.id);
-                 }
-               });
-
                tab.addEventListener("contextmenu", (e) => {
                  e.preventDefault();
                  openTabContextMenu(e.clientX, e.clientY, t.id, { invoker: tab });
@@ -12451,6 +12445,8 @@ const renderTabs = () => {
                ui.tabs.appendChild(tab);
              }
  
+
+             if (restoreTabFocus && state.activeTabId) focusTabEl(state.activeTabId);
 
              // Reavalia overflow para mostrar/ocultar os botões [‹] [›]
              if (typeof updateTabNavButtons === "function") {
@@ -12492,9 +12488,21 @@ setTimeout(() => updateTabNavButtons(), 60);
             items[nextIndex].focus();
           };
 
+          const openKeyboardContextMenu = (invoker, id, openMenu) => {
+            const rect = invoker.getBoundingClientRect();
+            openMenu(rect.left + Math.min(24, rect.width / 2), rect.bottom + 6, id, { invoker, focusMenu: true });
+          };
+
           const restoreInvokerFocus = (invoker, restoreFocus = true) => {
-            if (!restoreFocus || !invoker || !document.contains(invoker)) return;
-            try { invoker.focus(); } catch (_) {}
+            if (!restoreFocus || !invoker) return;
+            let target = invoker;
+            if (!document.contains(target)) {
+              const tabId = invoker.dataset?.tabId;
+              const nodeId = invoker.dataset?.id;
+              target = tabId ? getTabElement(tabId) || getTabElement(state.activeTabId)
+                : nodeId ? ui.tree.querySelector(`.node[data-id="${nodeId}"]`) || ui.tree : null;
+            }
+            if (target) focusElementSafely(target);
           };
 
           const closeTabMenu = ({ restoreFocus = true } = {}) => {
@@ -12538,7 +12546,7 @@ setTimeout(() => updateTabNavButtons(), 60);
             const ny = clamp(y, 8, vh - rect.height - 8);
             ui.tabMenu.style.left = nx + "px";
             ui.tabMenu.style.top = ny + "px";
-            if (focusMenu) requestAnimationFrame(() => focusFirstMenuItem(ui.tabMenu));
+            if (focusMenu) focusFirstMenuItem(ui.tabMenu);
           };
 
            ui.tabMenuPin.addEventListener("click", () => {
@@ -12585,12 +12593,13 @@ setTimeout(() => updateTabNavButtons(), 60);
            );
 
            addDocumentClickTask((e) => {
-            if (shouldCloseMenuFromClick(ui.tabMenu, e)) closeTabMenu();
-            if (shouldCloseMenuFromClick(ui.treeMenu, e)) closeTreeMenu();
+            if (shouldCloseMenuFromClick(ui.tabMenu, e)) closeTabMenu({ restoreFocus: false });
+            if (shouldCloseMenuFromClick(ui.treeMenu, e)) closeTreeMenu({ restoreFocus: false });
           });
 
           const handleMenuKeydown = (menuEl, closeMenu) => (e) => {
-            if (!menuEl || menuEl.hidden) return;
+            if (!menuEl || menuEl.hidden || shouldIgnoreGlobalShortcut(e) || e.ctrlKey || e.altKey || e.metaKey) return;
+            if (isContextMenuKey(e)) { e.preventDefault(); return; }
             if (e.key === "Escape") {
               e.preventDefault();
               closeMenu();
@@ -12617,13 +12626,12 @@ setTimeout(() => updateTabNavButtons(), 60);
               return;
             }
             if (e.key === "Tab") {
-              e.preventDefault();
-              focusMenuItemByOffset(menuEl, e.shiftKey ? -1 : 1);
+              closeMenu();
               return;
             }
             if ((e.key === "Enter" || e.key === " ") && document.activeElement?.getAttribute?.("role") === "menuitem") {
               e.preventDefault();
-              document.activeElement.click();
+              if (!e.repeat) document.activeElement.click();
             }
           };
 
@@ -12780,7 +12788,7 @@ setTimeout(() => updateTabNavButtons(), 60);
              const ny = clamp(y, 8, vh - rect.height - 8);
              ui.treeMenu.style.left = nx + "px";
              ui.treeMenu.style.top = ny + "px";
-            if (focusMenu) requestAnimationFrame(() => focusFirstMenuItem(ui.treeMenu));
+            if (focusMenu) focusFirstMenuItem(ui.treeMenu);
           };
 
            const getTreeMenuActionParentId = () => {
@@ -12878,7 +12886,6 @@ setTimeout(() => updateTabNavButtons(), 60);
               const row = e.target && e.target.closest ? e.target.closest(".node") : null;
               if (!row || !row.dataset || !row.dataset.id) return; // deixa o default fora de um item
               e.preventDefault();
-              closeTabMenu();
               openTreeContextMenu(e.clientX, e.clientY, row.dataset.id, { invoker: row });
             });
 
@@ -17236,7 +17243,7 @@ let __mdPreviewRenderSeq = 0;
            } catch (_) {}
 
            let editorViewGeneration = 0;
-           const restoreEditorViewState = (tabState) => {
+           const restoreEditorViewState = (tabState, { focusEditor = true } = {}) => {
              const generation = editorViewGeneration;
              const tabId = state.activeTabId;
              const data = state.data;
@@ -17256,10 +17263,10 @@ let __mdPreviewRenderSeq = 0;
              };
              requestAnimationFrame(() => {
                if (!isCurrent()) return;
-               focusElementSafely(ui.editor);
+               if (focusEditor) focusElementSafely(ui.editor);
                if (!isCurrent()) return;
                apply();
-               applySearchRevealToCurrentEditor({ forceSelect: true });
+               applySearchRevealToCurrentEditor({ forceSelect: focusEditor });
                // Uma busca ativa tem precedência sobre a restauração da seleção anterior.
                if (state.searchReveal && state.searchReveal.nodeId === getTab(tabId)?.nodeId) return;
                const restoredStart = ui.editor.selectionStart;
@@ -17272,7 +17279,7 @@ let __mdPreviewRenderSeq = 0;
              });
            };
 
-           const updateEditorForActiveTab = ({ validatePhysical = false } = {}) => {
+           const updateEditorForActiveTab = ({ validatePhysical = false, focusEditor = true } = {}) => {
              editorViewGeneration += 1;
              const panel = document.getElementById('editorPanel');
              if (panel) panel.removeAttribute('aria-labelledby');
@@ -17318,7 +17325,7 @@ let __mdPreviewRenderSeq = 0;
                  ui.mdPreviewWrap.style.display = "none";
                  scheduleMdPreviewToTopVisibility();
                  ui.editor.value = draft;
-                 restoreEditorViewState(tabState);
+                 restoreEditorViewState(tabState, { focusEditor });
                  clearMdPreviewSearchHighlights();
                } else if (state.mdMode === "split") {
                  ui.mdWorkspace?.classList.add("md-split");
@@ -17327,7 +17334,7 @@ let __mdPreviewRenderSeq = 0;
                  ui.editor.style.display = "block";
                  ui.mdPreviewWrap.style.display = "block";
                  ui.editor.value = draft;
-                 restoreEditorViewState(tabState);
+                 restoreEditorViewState(tabState, { focusEditor });
                  renderMarkdownPreview(draft, tab.id);
                  scheduleMdPreviewSearchRefresh({ scrollActive: false });
                  scheduleMdPreviewToTopVisibility();
@@ -17358,7 +17365,7 @@ let __mdPreviewRenderSeq = 0;
                ui.editor.disabled = false;
                const tabState = readTabState(tab.id);
                ui.editor.value = (tabState.draft ?? n.content ?? "");
-               restoreEditorViewState(tabState);
+               restoreEditorViewState(tabState, { focusEditor });
                clearMdPreviewSearchHighlights();
              }
 
@@ -19563,15 +19570,15 @@ let __mdPreviewRenderSeq = 0;
              {
                title: "Abas",
                rows: [
-                 { keys: ["Ctrl", "Tab"], action: "Foca a próxima aba aberta" },
-                 { keys: ["Ctrl", "Shift", "Tab"], action: "Foca a aba aberta anterior" },
-                 { keys: ["Ctrl", "W"], action: "Fecha a aba ativa" },
-                 { keys: ["Ctrl", "Shift", "T"], action: "Reabre a última aba fechada" },
+                 { keys: ["Ctrl", "Alt", "PgDn"], action: "Foca a próxima aba aberta" },
+                 { keys: ["Ctrl", "Alt", "PgUp"], action: "Foca a aba aberta anterior" },
+                 { keys: ["Ctrl", "Alt", "W"], action: "Fecha a aba ativa" },
+                 { keys: ["Ctrl", "Alt", "T"], action: "Reabre a última aba fechada" },
                  { keys: ["Ctrl", "Shift", "1"], action: "Troca aba ativa da esquerda" },
                  { keys: ["Ctrl", "Shift", "2"], action: "Troca aba ativa da direita" },
-                 { keys: ["Ctrl", "Shift", "←"], action: "Movimenta aba ativa para esquerda" },
-                 { keys: ["Ctrl", "Shift", "→"], action: "Movimenta aba ativa para direita" },
-                 { keys: ["Shift", "F10"], action: "Abre o menu da aba focada" }
+                 { keys: ["Ctrl", "Shift", "←"], action: "Movimenta aba ativa para esquerda (fora do editor e campos de texto)" },
+                 { keys: ["Ctrl", "Shift", "→"], action: "Movimenta aba ativa para direita (fora do editor e campos de texto)" },
+                 { keys: ["Shift", "F10"], action: "Abre o menu de contexto (botão direito do mouse) da aba ou item da árvore com foco" }
                ]
              },
              {
@@ -20117,8 +20124,15 @@ let __mdPreviewRenderSeq = 0;
            };
 
            const handleTreeKeydown = async (e) => {
-              if (TREE_DND.commitInFlight) return;
-             if (isTypingTarget(e.target)) return;
+             if (TREE_DND.commitInFlight || shouldIgnoreGlobalShortcut(e) || isTypingTarget(e.target)) return;
+             if (isContextMenuKey(e)) {
+               const row = e.target?.closest?.('.node[data-id]');
+               if (!row || !ui.tree.contains(row) || !getNode(row.dataset.id)) return;
+               e.preventDefault();
+               if (!e.repeat) openKeyboardContextMenu(row, row.dataset.id, openTreeContextMenu);
+               return;
+             }
+             if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
              const order = getTreeOrder();
              if (!order.length) return;
              const cur = getPreferredTreeFocusId(order);
@@ -20188,15 +20202,6 @@ let __mdPreviewRenderSeq = 0;
                return;
              }
 
-            if (e.key === 'ContextMenu' || (e.shiftKey && e.key === 'F10')) {
-              e.preventDefault();
-              const row = ui.tree?.querySelector?.(`.node[data-id="${n.id}"]`);
-              const rect = row?.getBoundingClientRect?.();
-              const x = rect ? rect.left + Math.min(32, rect.width / 2) : 24;
-              const y = rect ? rect.bottom + 6 : 24;
-              openTreeContextMenu(x, y, n.id, { invoker: row || ui.tree, focusMenu: true });
-              return;
-            }
            };
 
            ui.tree.addEventListener('pointerdown', () => { persistActiveEditorState(); }, true);
@@ -20481,7 +20486,7 @@ let __mdPreviewRenderSeq = 0;
            document.addEventListener("selectionchange", () => { if (document.activeElement === ui.editor) persistActiveEditorState(); });
 
            ui.editor.addEventListener("keydown", (e) => {
-            if (e.key !== "Tab" || e.ctrlKey || e.altKey || e.metaKey) return;
+            if (shouldIgnoreGlobalShortcut(e) || e.key !== "Tab" || e.ctrlKey || e.altKey || e.metaKey) return;
             const tab = getTab(state.activeTabId);
             const n = tab ? getNode(tab.nodeId) : null;
             if (!n || (n.ext !== "txt" && n.ext !== "md")) return;
@@ -20553,13 +20558,13 @@ let __mdPreviewRenderSeq = 0;
             if (!document.hasFocus()) return;
             if (shouldIgnoreGlobalShortcut(e)) return;
 
-            const ctrl = isMac() ? e.metaKey : e.ctrlKey;
+            const ctrl = isMac() ? e.metaKey && !e.ctrlKey : e.ctrlKey && !e.metaKey;
             const typing = isTypingTarget(e.target);
             const k = String(e.key || "");
             const keyLower = k.toLowerCase();
             const code = String(e.code || "");
-            const isKeyE = code === "KeyE" || keyLower === "e";
             const activeBackdrop = getOpenBackdrop();
+            if (!activeBackdrop && [ui.tabMenu, ui.treeMenu].some(menu => menu && !menu.hidden && menu.contains(e.target))) return;
 
             if (e.key === "Escape") {
               if (document.activeElement === ui.search && ui.search.value) {
@@ -20578,7 +20583,7 @@ let __mdPreviewRenderSeq = 0;
 
             if (activeBackdrop) {
               const trap = state._focusTrap;
-              if (trap && e.key === 'Tab') {
+              if (trap && e.key === 'Tab' && !e.ctrlKey && !e.altKey && !e.metaKey) {
                 const f = getFocusables(trap.modal);
                 if (!f.length) {
                   e.preventDefault();
@@ -20609,7 +20614,7 @@ let __mdPreviewRenderSeq = 0;
               return;
             }
 
-            if (e.key === "F2") {
+            if (e.key === "F2" && !e.ctrlKey && !e.altKey && !e.metaKey && !e.shiftKey) {
               // F2 deve funcionar no item focado da árvore e também no arquivo ativo
               // quando o foco está no editor TXT/MD, no preview Markdown ou nas abas.
               // Campos de busca/diálogo continuam protegidos para não interromper edição de formulário.
@@ -20619,6 +20624,7 @@ let __mdPreviewRenderSeq = 0;
               if (!targetId) return;
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               renameSelected({ preferActiveTab });
               return;
             }
@@ -20628,21 +20634,19 @@ let __mdPreviewRenderSeq = 0;
             if (ctrl && !e.altKey && !e.shiftKey && keyLower === "s") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               saveActive();
               return;
             }
 
-            if (
-              (ctrl && e.altKey && e.shiftKey && keyLower === "t") ||
-              (ctrl && e.shiftKey && !e.altKey && keyLower === "t")
-            ) {
+            if (ctrl && e.altKey && !e.shiftKey && keyLower === "t") {
               e.preventDefault();
               e.stopPropagation();
-              if (typeof reopenClosedTab === "function") reopenClosedTab();
+              if (!e.repeat) reopenClosedTab();
               return;
             }
 
-            if (ctrl && e.shiftKey && !e.altKey && (k === "ArrowLeft" || k === "ArrowRight")) {
+            if (!typing && ctrl && e.shiftKey && !e.altKey && (k === "ArrowLeft" || k === "ArrowRight")) {
               e.preventDefault();
               e.stopPropagation();
               if (!state.tabs.length || !state.activeTabId) return;
@@ -20658,24 +20662,20 @@ let __mdPreviewRenderSeq = 0;
               return;
             }
 
-            if (
-              (ctrl && e.shiftKey && !e.altKey && keyLower === "w") ||
-              (ctrl && !e.shiftKey && !e.altKey && keyLower === "w")
-            ) {
+            if (ctrl && e.altKey && !e.shiftKey && keyLower === "w") {
               e.preventDefault();
               e.stopPropagation();
-              if (!state.activeTabId) return;
+              if (e.repeat || !state.activeTabId) return;
               const t = getTab(state.activeTabId);
               if (t && t.pinned) return toast("Aba fixada. Desfixe para fechar.");
               closeTab(state.activeTabId);
               return;
             }
 
-            if (ctrl && !e.altKey && k === "Tab") {
+            if (ctrl && e.altKey && !e.shiftKey && (k === "PageUp" || k === "PageDown")) {
               e.preventDefault();
               e.stopPropagation();
-              const dir = e.shiftKey ? -1 : 1;
-              focusAdjacentTab(dir);
+              focusAdjacentTab(k === "PageUp" ? -1 : 1);
               return;
             }
 
@@ -20710,24 +20710,26 @@ let __mdPreviewRenderSeq = 0;
             if (ctrl && e.altKey && !e.shiftKey && keyLower === "p") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               openCustomize();
               return;
             }
 
-            if (ctrl && e.altKey && !e.shiftKey && (isKeyE || keyLower === "l" || keyLower === "v")) {
+            if (ctrl && e.altKey && !e.shiftKey && (["e", "l", "v"].includes(keyLower))) {
               const tab = getTab(state.activeTabId);
               const n = tab ? getNode(tab.nodeId) : null;
               if (!n || n.ext !== "md") return;
               e.preventDefault();
               e.stopPropagation();
               if (typeof e.stopImmediatePropagation === "function") e.stopImmediatePropagation();
-              setMarkdownMode(isKeyE ? "edit" : (keyLower === "l" ? "split" : "preview"));
+              setMarkdownMode(keyLower === "e" ? "edit" : (keyLower === "l" ? "split" : "preview"));
               return;
             }
 
             if (ctrl && e.altKey && !e.shiftKey && keyLower === "s") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               createFolder({ preferActiveTab: isShortcutEditorContext(e.target) });
               return;
             }
@@ -20735,6 +20737,7 @@ let __mdPreviewRenderSeq = 0;
             if (ctrl && e.altKey && !e.shiftKey && keyLower === "d") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               createNote({ preferActiveTab: isShortcutEditorContext(e.target) });
               return;
             }
@@ -20742,6 +20745,7 @@ let __mdPreviewRenderSeq = 0;
             if (ctrl && e.altKey && !e.shiftKey && keyLower === "a") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               state.autosave = !state.autosave;
               saveAutosave();
               setAutosaveButton();
@@ -20766,11 +20770,12 @@ let __mdPreviewRenderSeq = 0;
             if (ctrl && e.altKey && !e.shiftKey && keyLower === "i") {
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               openInfoDialog();
               return;
             }
 
-            if ((ctrl && e.key === "Delete") || (e.altKey && e.key === "Delete")) {
+            if (!e.shiftKey && e.key === "Delete" && ((ctrl && !e.altKey) || (e.altKey && !e.ctrlKey && !e.metaKey))) {
               const activeEl = document.activeElement;
               const treeHasFocus = !!(activeEl && ui.tree && ui.tree.contains(activeEl));
               if (!treeHasFocus) return; // preserva Ctrl+Delete normal no editor e em outros campos
@@ -20778,6 +20783,7 @@ let __mdPreviewRenderSeq = 0;
               if (!targetId) return;
               e.preventDefault();
               e.stopPropagation();
+              if (e.repeat) return;
               deleteSelected({ preferActiveTab: false });
               return;
             }
